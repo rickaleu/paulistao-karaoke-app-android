@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Paulistao Karaoke</string>
+
+    <string name="title_toolbar">Paulistão Karaokê</string>
+    <string name="title_home">Principal</string>
+    <string name="title_live">Ao Vivo</string>
+    <string name="title_news">Notícias</string>
+    <string name="title_info">Informações</string>
+
+    <string name="subtitle_home">Patrocínio</string>
+    <string name="subtitle_home2">Promoção e Realização</string>
+    <string name="subtitle_home3">Cronograma</string>
+    <string name="subtitle_home4">Sábado - 16/02</string>
+    <string name="subtitle_home5">Domingo - 17/02</string>
+    <string name="subtitle_home6">OBS: O horário indicado de início e término de cada categoria é orientativo . Os horários reais dependerão do andamento do evento.</string>
+
+    <string name="subtitle_info">Como chegar</string>
+    <string name="subtitle_info2">Associação Nipo Brasileira de Ribeirão Preto</string>
+    <string name="subtitle_info3">Rua Teresa Nomura Yamada, 400 - Recreio das Acácias - Ribeirão Preto</string>
+    <string name="subtitle_info4">Estacionamento 10 reais (os dois dias)</string>
+
+    <string name="subtitle_news">Notícias em tempo real</string>
+
+    <string name="subtitle_live">Acompanhe a transmissão Ao Vivo</string>
+
+</resources>

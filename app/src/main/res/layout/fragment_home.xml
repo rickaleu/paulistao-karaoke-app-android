@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorFont"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="left"
+            android:text="@string/subtitle_home"/>
+
+        <LinearLayout
+            android:id="@+id/home_sponsor_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/home_honda_sponsor"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:textColor="@color/colorFont"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/honda_app" />
+
+            <ImageView
+                android:id="@+id/home_china_sponsor"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/china_in_box_app" />
+
+            <ImageView
+                android:id="@+id/home_sony_sponsor"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sony_app" />
+
+            <ImageView
+                android:id="@+id/home_tree_sponsor"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/blue_tree_app" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/home_subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorFont"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="left"
+            android:text="@string/subtitle_home2"/>
+
+        <ImageView
+            android:id="@+id/home_upk_logo"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:layout_gravity="left"
+            android:src="@drawable/logo_upk_app" />
+
+        <TextView
+            android:id="@+id/home_subtitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/colorFont"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="left"
+            android:text="@string/subtitle_home3"/>
+
+        <TextView
+            android:id="@+id/home_subtitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorFont"
+            android:text="@string/subtitle_home4"/>
+
+        <ImageView
+            android:id="@+id/home_schedule1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cronograma_sab_app" />
+
+        <TextView
+            android:id="@+id/home_subtitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorFont"
+            android:text="@string/subtitle_home5"/>
+
+        <ImageView
+            android:id="@+id/home_schedule2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cronograma_dom_app" />
+
+        <TextView
+            android:id="@+id/home_subtitle6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorFont"
+            android:text="@string/subtitle_home6"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
